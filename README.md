@@ -37,6 +37,8 @@ When a person applies for a loan, there are two types of decisions that could be
 
 ## Data Description
 
+Dataset: https://www.kaggle.com/datasets/jeandedieunyandwi/lending-club-dataset/data
+
 Here is the information on this particular data set:
 
 <table border="1" class="dataframe">
@@ -195,7 +197,7 @@ Here is the information on this particular data set:
 
 ## Project Workflow
 1.	Data Cleaning and Preprocessing
-	•	Removed irrelevant features (e.g., emp_title, title, address).
+•	Removed irrelevant features (e.g., emp_title, title, address).
 	•	Handled missing data using imputation techniques.
 	•	Created new features such as zip_code and closed_credit_line.
 2.	Exploratory Data Analysis (EDA)
@@ -219,15 +221,15 @@ Here is the information on this particular data set:
  ## Key Techniques and Libraries Used
 
 Libraries:
-	•	Data Processing: pandas, numpy
-	•	Visualization: matplotlib, seaborn, hvplot
-	•	Machine Learning: scikit-learn, xgboost, imblearn
+•	Data Processing: pandas, numpy
+•	Visualization: matplotlib, seaborn, hvplot
+•	Machine Learning: scikit-learn, xgboost, imblearn
 
 Techniques:
-	•	Data Imbalance Handling: SMOTE, Borderline SMOTE, ADASYN
-	•	Feature Importance Analysis: Random Forest and SHAP
-	•	Hyperparameter Tuning: GridSearchCV
-	•	Model Performance Metrics: ROC-AUC, Confusion Matrix, Classification Report
+•	Data Imbalance Handling: SMOTE, Borderline SMOTE, ADASYN
+•	Feature Importance Analysis: Random Forest and SHAP
+•	Hyperparameter Tuning: GridSearchCV
+•	Model Performance Metrics: ROC-AUC, Confusion Matrix, Classification Report
 
  ---
 
