@@ -185,7 +185,7 @@ Here is the information on this particular data set:
   </tbody>
 </table>
 
---
+---
 
 ## Project Workflow
 1.	Data Cleaning and Preprocessing
