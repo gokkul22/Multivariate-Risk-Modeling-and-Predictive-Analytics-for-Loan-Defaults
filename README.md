@@ -2,6 +2,8 @@
 
 This project focuses on analyzing and predicting loan default risk for the Lending Club, a peer-to-peer lending platform. By leveraging Exploratory Data Analysis (EDA) and machine learning techniques, the project identifies key drivers behind loan defaults and builds predictive models to assist in decision-making.
 
+---
+
 ## Problem Statement
 
 Lending Club, as a financial platform, faces significant risks when lending money to applicants who may default. The objective of this project is to analyze historical data of borrowers and loans to:
@@ -12,6 +14,8 @@ Lending Club, as a financial platform, faces significant risks when lending mone
 LendingClub is a US peer-to-peer lending company, headquartered in San Francisco, California. It was the first peer-to-peer lender to register its offerings as securities with the Securities and Exchange Commission (SEC), and to offer loan trading on a secondary market. LendingClub is the world's largest peer-to-peer lending platform.
 
 Solving this case study will give us an idea about how real business problems are solved using EDA and Machine Learning. In this case study, we will also develop a basic understanding of risk analytics in banking and financial services and understand how data is used to minimise the risk of losing money while lending to customers.
+
+---
 
 ## Business Understanding
 You work for the LendingClub company which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
@@ -28,6 +32,8 @@ When a person applies for a loan, there are two types of decisions that could be
 		* Current: Applicant is in the process of paying the instalments, i.e. the tenure of the loan is not yet completed. These candidates are not labelled as 'defaulted'.
 		* Charged-off: Applicant has not paid the instalments in due time for a long period of time, i.e. he/she has defaulted on the loan
 	2. Loan rejected: The company had rejected the loan (because the candidate does not meet their requirements etc.). Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
+
+---
 
 ## Data Description
 
@@ -208,6 +214,8 @@ Here is the information on this particular data set:
 	•	Analyzed feature importance for actionable insights.
 	•	Deployed best-performing model to predict loan risks.
 
+---
+
  ## Key Techniques and Libraries Used
 
 Libraries:
@@ -221,5 +229,5 @@ Techniques:
 	•	Hyperparameter Tuning: GridSearchCV
 	•	Model Performance Metrics: ROC-AUC, Confusion Matrix, Classification Report
 
- 
+ ---
 
