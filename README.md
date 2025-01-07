@@ -196,40 +196,41 @@ Here is the information on this particular data set:
 ---
 
 ## Project Workflow
-1.	Data Cleaning and Preprocessing
-•	Removed irrelevant features (e.g., emp_title, title, address).
-	•	Handled missing data using imputation techniques.
-	•	Created new features such as zip_code and closed_credit_line.
-2.	Exploratory Data Analysis (EDA)
-	•	Examined loan distributions by status, purpose, and borrower attributes.
-	•	Correlation analysis of numerical features with loan defaults.
-	•	Visualized trends in key predictors like interest rates and DTI.
-3.	Feature Engineering
-	•	Encoded categorical variables using one-hot encoding.
-	•	Normalized numerical features with Min-Max scaling.
-	•	Addressed class imbalance using resampling techniques like SMOTE.
-4.	Model Building
-	•	Baseline logistic regression model for benchmarking.
-	•	Advanced models: Random Forest, XGBoost.
-	•	Compared performance using metrics like accuracy, ROC-AUC, and F1-score.
-5.	Evaluation and Insights
-	•	Analyzed feature importance for actionable insights.
-	•	Deployed best-performing model to predict loan risks.
+
+	1.	Data Cleaning and Preprocessing
+		•	Removed irrelevant features (e.g., emp_title, title, address).
+		•	Handled missing data using imputation techniques.
+		•	Created new features such as zip_code and closed_credit_line.
+	2.	Exploratory Data Analysis (EDA)
+		•	Examined loan distributions by status, purpose, and borrower attributes.
+		•	Correlation analysis of numerical features with loan defaults.
+		•	Visualized trends in key predictors like interest rates and DTI.
+	3.	Feature Engineering
+		•	Encoded categorical variables using one-hot encoding.
+		•	Normalized numerical features with Min-Max scaling.
+		•	Addressed class imbalance using resampling techniques like SMOTE.
+	4.	Model Building
+		•	Baseline logistic regression model for benchmarking.
+		•	Advanced models: Random Forest, XGBoost.
+		•	Compared performance using metrics like accuracy, ROC-AUC, and F1-score.
+	5.	Evaluation and Insights
+		•	Analyzed feature importance for actionable insights.
+		•	Deployed best-performing model to predict loan risks.
 
 ---
 
  ## Key Techniques and Libraries Used
 
-Libraries:
-•	Data Processing: pandas, numpy
-•	Visualization: matplotlib, seaborn, hvplot
-•	Machine Learning: scikit-learn, xgboost, imblearn
+	Libraries:
+	•	Data Processing: pandas, numpy
+	•	Visualization: matplotlib, seaborn, hvplot
+	•	Machine Learning: scikit-learn, xgboost, imblearn
 
-Techniques:
-•	Data Imbalance Handling: SMOTE, Borderline SMOTE, ADASYN
-•	Feature Importance Analysis: Random Forest and SHAP
-•	Hyperparameter Tuning: GridSearchCV
-•	Model Performance Metrics: ROC-AUC, Confusion Matrix, Classification Report
+	Techniques:
+	•	Data Imbalance Handling: SMOTE, Borderline SMOTE, ADASYN
+	•	Feature Importance Analysis: Random Forest and SHAP
+	•	Hyperparameter Tuning: GridSearchCV
+	•	Model Performance Metrics: ROC-AUC, Confusion Matrix, Classification Report
 
  ---
 
