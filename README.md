@@ -1,4 +1,4 @@
-# Multivariate-Risk-Modeling-and-Predictive-Analytics-for-Loan-Defaults
+# Multivariate Risk Modeling and Predictive Analytics for Loan Defaults
 
 This project focuses on analyzing and predicting loan default risk for the Lending Club, a peer-to-peer lending platform. By leveraging Exploratory Data Analysis (EDA) and machine learning techniques, the project identifies key drivers behind loan defaults and builds predictive models to assist in decision-making.
 
@@ -8,6 +8,10 @@ Lending Club, as a financial platform, faces significant risks when lending mone
 	1.	Understand the factors contributing to loan defaults.
 	2.	Build predictive models to classify borrowers into high-risk and low-risk categories.
 	3.	Optimize lending decisions to minimize financial losses while maintaining business goals.
+
+LendingClub is a US peer-to-peer lending company, headquartered in San Francisco, California. It was the first peer-to-peer lender to register its offerings as securities with the Securities and Exchange Commission (SEC), and to offer loan trading on a secondary market. LendingClub is the world's largest peer-to-peer lending platform.
+
+Solving this case study will give us an idea about how real business problems are solved using EDA and Machine Learning. In this case study, we will also develop a basic understanding of risk analytics in banking and financial services and understand how data is used to minimise the risk of losing money while lending to customers.
 
 ## Business Understanding
 You work for the LendingClub company which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
@@ -181,5 +185,41 @@ Here is the information on this particular data set:
   </tbody>
 </table>
 
----
-----
+-
+
+## Project Workflow
+	1.	Data Cleaning and Preprocessing
+	•	Removed irrelevant features (e.g., emp_title, title, address).
+	•	Handled missing data using imputation techniques.
+	•	Created new features such as zip_code and closed_credit_line.
+	2.	Exploratory Data Analysis (EDA)
+	•	Examined loan distributions by status, purpose, and borrower attributes.
+	•	Correlation analysis of numerical features with loan defaults.
+	•	Visualized trends in key predictors like interest rates and DTI.
+	3.	Feature Engineering
+	•	Encoded categorical variables using one-hot encoding.
+	•	Normalized numerical features with Min-Max scaling.
+	•	Addressed class imbalance using resampling techniques like SMOTE.
+	4.	Model Building
+	•	Baseline logistic regression model for benchmarking.
+	•	Advanced models: Random Forest, XGBoost.
+	•	Compared performance using metrics like accuracy, ROC-AUC, and F1-score.
+	5.	Evaluation and Insights
+	•	Analyzed feature importance for actionable insights.
+	•	Deployed best-performing model to predict loan risks.
+
+ ## Key Techniques and Libraries Used
+
+Libraries:
+	•	Data Processing: pandas, numpy
+	•	Visualization: matplotlib, seaborn, hvplot
+	•	Machine Learning: scikit-learn, xgboost, imblearn
+
+Techniques:
+	•	Data Imbalance Handling: SMOTE, Borderline SMOTE, ADASYN
+	•	Feature Importance Analysis: Random Forest and SHAP
+	•	Hyperparameter Tuning: GridSearchCV
+	•	Model Performance Metrics: ROC-AUC, Confusion Matrix, Classification Report
+
+ 
+
